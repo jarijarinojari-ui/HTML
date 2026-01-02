@@ -6,5 +6,74 @@
 }
 .font {
     text-align: center; 
-    font-size:16px
+    font-size:16px;
+}
+.box {
+    width: 200px;
+    background: cadetblue;
+    margin : 20px;
+    padding : 40px;
+    border : 1px solid black;
+    border-radius : 5px;
+    box-shadow: 5px 5px gray;
+
+}
+
+.contaniner {
+    width: 800px;
+
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+}
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background: cornflowerblue;
+    float: left;
+    /* display: inline-block; */
+}
+.right {
+    width: 80%;
+    height: 400px;
+    background: coral;
+    float: left;
+    /* display: inline-block; */
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    clear: both;
+}
+.leftBox {
+    width: 400px;
+    height: 120px;
+    background-color: blueviolet;
+    float: left;
+}
+.rightBox {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(226, 226, 43);
+    float: left;
+}
+.image {
+    width: 100%;
+}
+.headBox {
+    float: left;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(226, 226, 43);
+    clear: both;
+}
+.titleBox {
+    float: left;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(45, 185, 216);
+    clear: both;
 }
