@@ -1,0 +1,62 @@
+.contaniner {
+    width: 500px;
+    height: 120px;
+    background-color: black;
+    float: left;
+}
+.header {
+    width: 500px;
+    height: 30px;
+    background-color: rgb(188, 188, 188);
+    float: left;
+    
+}
+.head {
+    width: 500px;
+    height: 90px;
+    background-color: rgb(244, 244, 244);
+    float: left;
+    
+}
+.icon {
+    width: 30px;
+    display: inline-block;
+    float: left;
+}
+.fontoptions {
+    font-size: 13; 
+    margin-left: 10;
+    margin-top: 5; 
+    float: left;
+    color: rgb(36, 36, 36);
+}
+.fontoptions2 {
+    font-size: 13; 
+    margin-left: 0;
+    margin-top: 5; 
+    float: left;
+    color: rgb(36, 36, 36);
+}
+.fontoptions3 {
+    font-size: 13; 
+    margin-left: -200;
+    margin-top: 30; 
+    float: left;
+    color: rgb(36, 36, 36);
+}
+.time {
+    font-size: 8; 
+    margin-left: 10;
+    margin-top: 5; 
+    float:initial ;
+    color: rgb(141, 141, 141);
+}
+.abcd {
+    width: 120;
+    height: 120;
+    background-color: beige;
+    float: left;
+}
+.image1 {
+    width: 100%;
+}
