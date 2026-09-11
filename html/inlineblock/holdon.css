@@ -1,0 +1,23 @@
+.main {
+    width: 800px;
+    height: 200px;
+    background-color: bisque;
+}
+.image {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.folder {
+    height: 40px;
+    width: 600px;
+    float: left;
+    background-color: rgb(231, 196, 255);
+}
+.middle {
+    height: 50px;
+    width: 600px;
+    float: left;
+    background-color: brown;
+}
