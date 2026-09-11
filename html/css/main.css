@@ -1,0 +1,11 @@
+.profile{
+    width: 500px; 
+    margin-top: 30px; 
+    display: block;
+    margin-left : auto;
+    margin-right : auto
+}
+
+.babo {
+    font-size : 300px
+}
