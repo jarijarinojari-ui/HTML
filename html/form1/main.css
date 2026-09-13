@@ -4,3 +4,7 @@
 .input-text {
     width: 200px; height: 25px;  ;
 }
+
+div, input, textarea {
+    box-sizing: border-box;
+}
