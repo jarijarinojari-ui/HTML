@@ -1,0 +1,44 @@
+tr {
+    border-bottom: 3px solid rgba(168, 220, 220, 0.997);
+    border-top: 3px solid rgba(168, 220, 220, 0.997);
+}
+table {
+    border-collapse: collapse;
+    border-radius: 10px ;
+    
+    
+}
+td {
+    vertical-align:auto;
+}
+
+td:nth-child(3) {
+    
+}
+
+.background {
+    height: 400px;
+    width: 700px;
+    background-color: rgba(168, 220, 220, 0.997);
+    position: relative;
+}
+
+.gfd {
+    width: 680px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+button {
+    position: absolute;
+    bottom: 14px;
+    right: 70px;
+    height: 70px;
+    width: 180px;
+    border-radius: 5px ;
+    background-color: cadetblue;
+    color: aliceblue;
+}
