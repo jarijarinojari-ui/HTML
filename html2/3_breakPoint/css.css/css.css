@@ -1,0 +1,66 @@
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+div {
+  text-align:center;
+}
+.flex-container {
+  display : flex;
+  flex-direction : center;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width : 200px;
+  height : 100px;
+  margin : 5px;
+  min-width: 200px;
+ 
+}
+
+
+
+@media screen and (max-width : 1200px) { 
+  .flex-container { 
+    flex-direction : center;
+    flex-wrap: wrap;
+    height: unset;
+    width: unset;
+    flex-wrap:nowrap;
+    
+  } 
+} 
+
+@media screen and (max-width : 768px) { 
+  .flex-container { 
+    width: 420px;
+    height: 210px;
+    position: fixed;
+    left: 20%;
+  } 
+
+}
+
+@media screen and (max-width : 768px) { 
+  .flex-container { 
+    flex-wrap: wrap;
+   align-items: center;
+  justify-content: center;
+  } 
+}
+
+
+
+@media screen and (max-width : 576px) { 
+  .flex-container { 
+    flex-direction : column;
+    height: unset;
+    width:unset;
+    flex-wrap:nowrap;
+  } 
+}
